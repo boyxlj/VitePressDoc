@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: 'Promise'
-  # text: 'Hello Promise'
+  text: 'Hello Promise'
   tagline: Hello Promise
   actions:
     - theme: brand
@@ -13,7 +13,9 @@ hero:
     - theme: alt
       text: 关于我们
       link: /about/introduce
-
+  image:
+    src: /home.png
+    alt: VitePress
 features:
   # - title: Feature A
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

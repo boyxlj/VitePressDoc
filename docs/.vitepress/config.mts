@@ -1,13 +1,16 @@
 import { defineConfig } from 'vitepress'
+import timeline from 'vitepress-markdown-timeline'
 import { sidebarArr } from './config/sidebar'
 import { navbarArr } from './config/navbar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
   title: 'Promise',
   description: 'Hello Promise',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    siteTitle: 'Promise',
+    logo: '/logo.png',
     nav: navbarArr,
     sidebar: sidebarArr,
     socialLinks: [{ icon: 'github', link: 'https://github.com/boyxlj' }],
@@ -46,6 +49,11 @@ export default defineConfig({
           }
         }
       }
+    }
+  },
+  markdown: {
+    config: (md) => {
+      md.use(timeline)
     }
   }
 })

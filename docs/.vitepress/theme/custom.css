@@ -2,6 +2,22 @@
   --vp-c-brand-1: #c664ff;
   --vp-c-brand-2: #d08ff5;
   --vp-button-brand-bg: #c664ff;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #bd34fe,
+    #41d1ff
+  );
+  --vp-home-hero-image-background-image: #c664ff !important;
+  --vp-home-hero-image-filter: blur(72px) !important;
+}
+
+.VPHero {
+  margin-top: 6rem !important;
+}
+.image-bg {
+  background: #8d17d1;
+  filter: blur(72px);
 }
 
 .VPButton {
