@@ -1,6 +1,6 @@
 # 快捷导航
 
-### 介绍
+## 介绍
 
 **简洁的导航页面,和 Chrome 启动页一样**
 
@@ -13,10 +13,10 @@
 
 :::
 
-### 技术栈
+## 技术栈
 
-`React` + `Antd` + `EggJs`
+`React` + `Antd` + `Egg`
 
-### 访问地址
+## 访问地址
 
 https://tab.helloxlj.top

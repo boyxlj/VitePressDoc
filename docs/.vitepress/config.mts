@@ -23,6 +23,7 @@ export default defineConfig({
     },
     lightModeSwitchTitle: '切换明亮主题',
     darkModeSwitchTitle: '切换黑暗主题',
+    returnToTopLabel: '返回顶部',
     docFooter: {
       prev: '上一页',
       next: '下一页'
