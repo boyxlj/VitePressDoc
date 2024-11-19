@@ -1,0 +1,17 @@
+:root {
+  --vp-c-brand-1: #c664ff;
+  --vp-c-brand-2: #d08ff5;
+  --vp-button-brand-bg: #c664ff;
+}
+
+.VPButton {
+  border-radius: 10px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.VPNavBarSearch {
+  flex-grow: 0;
+}
