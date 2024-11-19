@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: 'Promise'
-  text: 'Hello Promise'
-  tagline: Hello Promise
+  text: 'Just Do It Again'
+  tagline: Passion
   actions:
     - theme: brand
       text: 实用工具
