@@ -31,7 +31,7 @@ export default defineConfig({
     },
     cleanUrls: true,
     outline: { label: '页面导航' },
-    sidebarMenuLabel: '123',
+    sidebarMenuLabel: '菜单',
     search: {
       provider: 'local',
       options: {
