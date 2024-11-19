@@ -9,6 +9,7 @@ export default defineConfig({
   title: 'Promise',
   description: 'Hello Promise',
   themeConfig: {
+    outline: 2,
     siteTitle: 'Promise',
     logo: '/logo.png',
     nav: navbarArr,
