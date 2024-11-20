@@ -4,6 +4,6 @@ lastUpdated: false
 footer: false
 ---
 
-# 待完善
+# AI 待完善
 
 Stay tuned 🎁
