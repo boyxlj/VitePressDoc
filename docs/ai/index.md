@@ -9,4 +9,4 @@ footer: false
 Stay tuned 🎁
 
 <demo vue="../components/preview-component.vue" />
-<comment/>
+<!-- <comment/> -->
