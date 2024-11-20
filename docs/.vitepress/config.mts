@@ -5,13 +5,13 @@ import { navbarArr } from './config/navbar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  head: [['link', { rel: 'icon', href: '/logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/logo1.png' }]],
   title: 'Promise',
   description: 'Hello Promise',
   themeConfig: {
     outline: 2,
     siteTitle: 'Promise',
-    logo: '/logo.png',
+    logo: '/logo1.png',
     nav: navbarArr,
     sidebar: sidebarArr,
     socialLinks: [{ icon: 'github', link: 'https://github.com/boyxlj' }],

@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 'Promise'
   text: 'Just Do It Again'
-  tagline: Passion
+  tagline: We Need Passion !
   actions:
     - theme: brand
       text: 实用工具
@@ -14,7 +14,7 @@ hero:
       text: 关于我们
       link: /about/introduce
   image:
-    src: /home.png
+    src: /home1.svg
     alt: VitePress
 features:
   # - title: Feature A

@@ -1,7 +1,7 @@
 :root {
-  --vp-c-brand-1: #c664ff;
-  --vp-c-brand-2: #d08ff5;
-  --vp-button-brand-bg: #c664ff;
+  --vp-c-brand-1: #aa3de9;
+  --vp-c-brand-2: #c585eb;
+  --vp-button-brand-bg: #aa3de9;
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
@@ -15,6 +15,7 @@
 .VPHero {
   margin-top: 6rem !important;
 }
+
 .image-bg {
   background: #8d17d1;
   filter: blur(72px);
@@ -23,6 +24,14 @@
 .VPButton {
   border-radius: 10px !important;
 }
+
+/* .brand {
+  background: linear-gradient(
+    303deg,
+    #bd34fe 35.21%,
+    #41d1ff 68.34%
+  ) !important;
+} */
 
 a {
   text-decoration: none !important;

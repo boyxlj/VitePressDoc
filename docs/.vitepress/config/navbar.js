@@ -20,6 +20,10 @@ export const navbarArr = [
         link: 'https://vercel.com/'
       },
       {
+        text: 'vue',
+        link: 'https://cn.vuejs.org/'
+      },
+      {
         text: 'react',
         link: 'https://zh-hans.react.dev'
       },
