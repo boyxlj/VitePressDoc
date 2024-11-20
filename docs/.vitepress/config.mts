@@ -1,9 +1,10 @@
 import { defineConfig } from 'vitepress'
 import tailwind from 'tailwindcss'
 import timeline from 'vitepress-markdown-timeline'
+import { vitepressDemoPlugin } from 'vitepress-demo-plugin'
 import { sidebarArr } from './config/sidebar'
 import { navbarArr } from './config/navbar'
-// https://vitepress.dev/reference/site-config
+
 export default defineConfig({
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: '/logo1.png' }]],
@@ -56,8 +57,10 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(timeline)
+      md.use(vitepressDemoPlugin)
     }
   },
+
   css: {
     loaderOptions: {
       postcss: {
