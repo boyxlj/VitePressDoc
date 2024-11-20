@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import tailwind from 'tailwindcss'
 import timeline from 'vitepress-markdown-timeline'
 import { sidebarArr } from './config/sidebar'
 import { navbarArr } from './config/navbar'
@@ -9,7 +10,6 @@ export default defineConfig({
   title: 'Promise',
   description: 'Hello Promise',
   themeConfig: {
-    outline: 2,
     siteTitle: 'Promise',
     logo: '/logo1.png',
     nav: navbarArr,
@@ -30,6 +30,7 @@ export default defineConfig({
       next: '下一页'
     },
     cleanUrls: true,
+    outline: { label: '页面导航' },
     sidebarMenuLabel: '菜单',
     search: {
       provider: 'local',
@@ -55,6 +56,18 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(timeline)
+    }
+  },
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: [
+          tailwind({
+            config: 'tailwind.config.js',
+            cssPaths: ['./src/index.html', './**/*.md']
+          })
+        ]
+      }
     }
   }
 })

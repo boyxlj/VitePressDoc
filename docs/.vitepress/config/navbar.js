@@ -1,9 +1,9 @@
 export const navbarArr = [
   { text: '主页', link: '/' },
-  { text: '实用工具', link: '/tools' },
-  { text: 'AI工具', link: '/ai' },
+  { text: '实用工具', link: '/tools/' },
+  { text: 'AI工具', link: '/ai/' },
   { text: 'PracticeProjects', link: '/practice-projects/' },
-  { text: '时间线', link: '/time-lines' },
+  { text: '时间线', link: '/time-lines/' },
   {
     text: '友情链接',
     items: [
