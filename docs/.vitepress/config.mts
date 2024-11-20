@@ -30,7 +30,6 @@ export default defineConfig({
       next: '下一页'
     },
     cleanUrls: true,
-    outline: { label: '页面导航' },
     sidebarMenuLabel: '菜单',
     search: {
       provider: 'local',
