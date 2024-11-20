@@ -3,23 +3,23 @@
 </template>
 
 <script setup>
-import Gitalk from 'gitalk'
-import { onMounted, nextTick } from 'vue'
+import Gitalk from "gitalk";
+import { onMounted, nextTick } from "vue";
 
 const gitalk = new Gitalk({
-  clientID: 'Ov23liORJvkDZxDKI3LC',
-  clientSecret: '3d85fa1a9c2f0c7628d8a9ace117bf710566f8be',
-  repo: 'boyxlj',
-  owner: 'boyxlj',
-  admin: ['boyxlj'],
-  github_id: 'boyxlj',
+  clientID: "Ov23liORJvkDZxDKI3LC",
+  clientSecret: "3d85fa1a9c2f0c7628d8a9ace117bf710566f8be",
+  repo: "boyxlj",
+  owner: "boyxlj",
+  admin: ["boyxlj"],
+  github_id: "boyxlj",
   id: location.pathname,
-  distractionFreeMode: false
-})
+  distractionFreeMode: false,
+});
 
 onMounted(() => {
-  gitalk.render('gitalk-container')
-})
+  gitalk.render("gitalk-container");
+});
 </script>
 
 <style lang="scss">
@@ -48,7 +48,7 @@ onMounted(() => {
 .gt-comment-content {
   background-color: var(--vp-c-bg-alt) !important;
   border-radius: 6px !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.5rem !important;
   cursor: pointer !important;
   box-sizing: border-box !important;
   &:hover {

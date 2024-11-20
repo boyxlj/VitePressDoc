@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p style="font-size: 30px; margin: 10px 0 30px">
+    <p class="text-3xl my-[30px]">
       当前数值: <span class="text-orange-700">{{ count }}</span>
     </p>
 
@@ -25,6 +25,6 @@
   </div>
 </template>
 <script setup>
-import { ref } from 'vue'
-const count = ref(0)
+import { ref } from "vue";
+const count = ref(0);
 </script>
