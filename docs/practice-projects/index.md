@@ -10,7 +10,8 @@
 > - PC 客户端 [http://small-shop.helloxlj.top](https://small-shop.helloxlj.top/)<br/>账号：111 密码：111 <br/>
 > - PC 后台管理 [http://small-shop.helloxlj.top/manage](https://small-shop.helloxlj.top/manage) <br/>账号：111 密码：111<br/>
 > - 移动端(手机访问) [http://small-shop.helloxlj.top/mobile](https://small-shop.helloxlj.top/mobile) <br/>账号：111 密码：111<br/>
-> - 微信小程序 [http://small-shop.helloxlj.top/manage](https://small-shop.helloxlj.top/)<br/>微信扫码后点击申请预览 账号：111 密码：111<br/>
+> - 微信小程序 [http://small-shop.helloxlj.top/manage](https://small-shop.helloxlj.top/)<br/>
+> - <img style="width:80px" src='https://boyxlj.pages.dev/file/8bab3c50ad66dc52241a0.jpg'/>微信扫码后点击申请预览 账号：111 密码：111<br/>
 
 ## [招聘系统](/practice-projects/zhao-pin)
 
