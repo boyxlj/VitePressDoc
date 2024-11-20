@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "sass": "^1.81.0",
     "vitepress-markdown-timeline": "^1.2.1"
   }
 }
