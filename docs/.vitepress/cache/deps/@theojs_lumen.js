@@ -6,7 +6,7 @@ import {
   onMounted,
   ref
 } from "./chunk-5TCDO6LD.js";
-import "./chunk-5WRI5ZAA.js";
+import "./chunk-BUSYA2B4.js";
 
 // node_modules/.pnpm/@theojs+lumen@4.2.1/node_modules/@theojs/lumen/types/index.ts
 import { default as default2 } from "C:/Users/x7095/Desktop/source/project/VitePressDoc/node_modules/.pnpm/@theojs+lumen@4.2.1/node_modules/@theojs/lumen/components/DocBox.vue";
@@ -1857,7 +1857,7 @@ var isIconifyIcon = (icon) => icon.includes(":");
 var isExternalLink = (link) => /^https?:\/\//.test(link);
 var initTwikoo = async (envId) => {
   try {
-    const twikoo = await import("./twikoo.all.min-E3FHOJON.js");
+    const twikoo = await import("./twikoo.all.min-EG5UYGK6.js");
     console.log("Twikoo 加载成功");
     if (typeof window !== "undefined") {
       await nextTick();

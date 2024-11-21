@@ -1,6 +1,6 @@
 import {
   __commonJS
-} from "./chunk-5WRI5ZAA.js";
+} from "./chunk-BUSYA2B4.js";
 
 // node_modules/.pnpm/gitalk@1.8.0/node_modules/gitalk/dist/gitalk.js
 var require_gitalk = __commonJS({
