@@ -12,6 +12,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@theojs/lumen": "^4.2.1",
     "gitalk": "^1.8.0",
     "sass": "^1.81.0",
     "vitepress-markdown-timeline": "^1.2.1"

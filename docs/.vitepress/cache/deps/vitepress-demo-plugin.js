@@ -23,7 +23,7 @@ import {
   unref,
   watch,
   withCtx
-} from "./chunk-JN5NFW2R.js";
+} from "./chunk-5TCDO6LD.js";
 import {
   __commonJS,
   __toESM
@@ -55,7 +55,7 @@ var require_fs = __commonJS({
   }
 });
 
-// node_modules/.pnpm/vitepress-demo-plugin@1.1.2_vitepress@1.5.0_@algolia+client-search@5.14.2_postcss@8.4.49_sass_adn7pib35baoowbgsuszwxzuwe/node_modules/vitepress-demo-plugin/dist/index.js
+// node_modules/.pnpm/vitepress-demo-plugin@1.1.2_vitepress@1.5.0_@algolia+client-search@5.14.2_@types+node@22.9.1__3wwlwzndkm3it32xrf625q5je4/node_modules/vitepress-demo-plugin/dist/index.js
 var import_path = __toESM(require_path());
 var import_fs = __toESM(require_fs());
 var me = (e, t) => {

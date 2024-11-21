@@ -1,9 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
   --vp-c-brand-1: #aa3de9;
   --vp-c-brand-2: #c585eb;
+  --vp-c-brand-3: #aa3de9;
   --vp-button-brand-bg: #aa3de9;
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
@@ -13,6 +15,7 @@
   );
   --vp-home-hero-image-background-image: #c664ff !important;
   --vp-home-hero-image-filter: blur(72px) !important;
+  --custom-border-radius: 8px;
 }
 
 .VPHero {
@@ -25,7 +28,7 @@
 }
 
 .VPButton {
-  border-radius: 10px !important;
+  border-radius: var(--custom-border-radius) !important;
 }
 
 /* .brand {
@@ -42,4 +45,9 @@ a {
 
 .VPNavBarSearch {
   flex-grow: 0;
+}
+
+.share-link-button,
+.vitepress-demo-plugin__container {
+  border-radius: var(--custom-border-radius) !important;
 }

@@ -5,6 +5,7 @@ layout: home
 hero:
   name: 'Promise'
   text: 'Just Do It Again'
+  textsuffix: ''
   tagline: We Need Passion !
   actions:
     - theme: brand
@@ -24,3 +25,5 @@ features:
   # - title: Feature C
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<Home />

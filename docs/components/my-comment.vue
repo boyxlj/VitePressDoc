@@ -47,7 +47,7 @@ onMounted(() => {
 
 .gt-comment-content {
   background-color: var(--vp-c-bg-alt) !important;
-  border-radius: 6px !important;
+  border-radius: var(--custom-border-radius) !important;
   margin-bottom: 0.5rem !important;
   cursor: pointer !important;
   box-sizing: border-box !important;
