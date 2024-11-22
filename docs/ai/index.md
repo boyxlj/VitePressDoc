@@ -10,4 +10,3 @@ Stay tuned 🎁
 
 <demo vue="../components/preview-component.vue" />
 <!-- <Twikoo/> -->
-<Twikoo/>
