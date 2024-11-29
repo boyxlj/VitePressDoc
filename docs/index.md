@@ -4,9 +4,9 @@ layout: home
 
 hero:
   name: 'Promise'
-  text: 'Just Do It Again'
+  text: 'Just Do It '
   textsuffix: ''
-  tagline: We Need Passion !
+  # tagline: We Need Passion !
   actions:
     - theme: brand
       text: 实用工具

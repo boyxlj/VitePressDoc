@@ -4,7 +4,7 @@ lastUpdated: false
 footer: false
 ---
 
-# AI 待完善
+# AI Tools Need To Be Improved
 
 Stay tuned 🎁
 
